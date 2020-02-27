@@ -2,6 +2,7 @@
     background: url(./img/bg.png)no-repeat;
     background-size: cover;
     background-position: center center;
+    padding-bottom: 40px;
     
 }
 .button_header {
@@ -25,4 +26,87 @@
 .navbar-default{
     background: none;
     border: none;
+}
+.header_container{
+    width: 50%;
+    margin: auto;
+}
+.header_container h1{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.header_container p{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.header_form{
+    width: 40%;
+    margin: auto;
+    clear: both;
+    display: table;
+}
+.header_form form input{
+    border-radius: 10px 0px 0px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    float: left;
+}
+#header_button{
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    color: white;
+    background: rgb(228, 13, 77);
+
+}
+.dialog1{
+    height: 70px;
+    width: 290px;
+    border-radius: 20px;
+    background: white;
+    position: relative;
+    margin: auto;
+    right: 50px;
+    margin-top: 30px;
+}
+.dialog1 p{
+    padding-left: 30px;
+    padding-top: 10px;
+}                                                        /*Поиграться с дивами и шириной чтобы выровнять диалоги как по макету*/
+.img_dialog1{
+    position: absolute;
+    left: -40px;
+    top: 5px;
+}
+.img_dialog1 img{
+    width: 60px;
+    height: 60px;
+}
+.dialog2{
+    height: 70px;
+    width: 290px;
+    border-radius: 20px;
+    background: white;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+.dialog2 p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.img_dialog2{
+    position: absolute;
+    right: -40px;
+    top: 5px;
+}
+.img_dialog2 img{
+    width: 60px;
+    height: 60px;
 }
